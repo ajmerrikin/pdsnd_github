@@ -11,6 +11,12 @@ This project uses pandas, numpy  and time libraries to perform descriptive analy
 
 The dataset includes information about bike usage, such as ride duration, start and end stations, user demographics, and more. By performing _data cleaning_, _exploration_, and _analysis_, participants can uncover trends, patterns, and user behaviors within the bike-sharing ecosystem. This project not only provides practical experience in data manipulation and analysis but also offers insights into urban transportation dynamics and user preferences, making it an engaging and informative hands-on learning opportunity.
 
+Some common attributes found in such datasets might include:
+*		**Trip Duration:** The time elapsed between the start and end of a bike ride.
+*		**Start and End Stations:** The names or IDs of the stations where the bike ride began and ended.
+*		**User Information:** Details about the riders, such as user type (subscriber or customer), gender, and birth year.
+*		**Timestamps:** The date and time when the ride was initiated and completed.
+
 
 ### Files used
 chicago.csv, new york city.csv, washington.csv
