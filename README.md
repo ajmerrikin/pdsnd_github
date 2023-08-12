@@ -4,7 +4,7 @@
 8-11-2023 README file.
 
 ### Project Title
-Bikeshare
+Bikeshare project
 
 ### Description
 This project uses pandas, numpy  and time libraries to perform descriptive analysis on bikeshare data related to 3 cities: Chicago, Washington, New York City. It is a dynamic exercise, the user input the city, month and day he or she wants to view the data.
