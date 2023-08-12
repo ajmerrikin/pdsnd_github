@@ -4,13 +4,16 @@
 8-11-2023 README file.
 
 ### Project Title
-Bikeshare project
+Bikeshare
 
 ### Description
-This project uses pandas, numpy  and time libraries to perform descriptive analysis on bikeshare data related to 3 cities: Chicago, Washington, New York City. It is a dynamic exercise, the user input the city, month and day he or she wants to view the data.
+This project uses pandas, numpy  and time libraries to perform descriptive analysis on bikeshare data related to 3 cities: Chicago, Washington, New York City. It is a dynamic exercises, the user input the city, month and day he or she wants to view the data
+
+The dataset includes information about bike usage, such as ride duration, start and end stations, user demographics, and more. By performing _data cleaning_, _exploration_, and _analysis_, participants can uncover trends, patterns, and user behaviors within the bike-sharing ecosystem. This project not only provides practical experience in data manipulation and analysis but also offers insights into urban transportation dynamics and user preferences, making it an engaging and informative hands-on learning opportunity.
+
 
 ### Files used
 chicago.csv, new york city.csv, washington.csv
 
 ### Credits
-In this project I used data provided by Motivate.
+In this project, you will use data provided by Motivate.
