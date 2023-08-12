@@ -223,10 +223,15 @@ def view_raw_data(df):
 #view raw data
     index = 0
     while True:
-        userinput = input('Would you like to see the raw data Enter yes or no.\n')
+        try:
+            userinput = input('Would you like to see the raw data Enter yes or no.\n')
+        except:
+            print('That\'s not a valid answer.Please try again!')
+            continue
         if userinput.lower() == 'yes':
             print(df[index:index+5])
             index = index+5
+            break
         else:
             break
     
