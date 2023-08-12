@@ -28,7 +28,7 @@ def get_filters():
         try:
             city= input('\nEnter a city name you want to explore. Please enter chicago, new york city or washington\n').lower()
             
-        except valueError:
+        except ValueError:
             print('That\'s not a valid answer!')
             continue
     
@@ -48,7 +48,7 @@ def get_filters():
             month= input('Enter the month you want to filter by. If you want all months type "all"\n').lower()
             
     
-        except valueError:
+        except ValueError:
             print('That\'s not a valid answer. Please try again!')
             break
             
@@ -170,7 +170,7 @@ def station_stats(df):
 
     # display most frequent combination of start station and end station trip
     start_station_end_station_combination= df.groupby(['Start Station','End Station']).size().nlargest(1)
-    print('The most frequent combination of start station and end station trip is:', start_station_end_station_combination)
+    print('The most frequent combination of start station and end station trip is:', start_station_end_station_combination.to_string(header=False))
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -226,7 +226,7 @@ def view_raw_data(df):
     while True:
         try:
             userinput = input('Would you like to see the raw data Enter yes or no.\n')
-        except:
+        except ValueError:
             print('That\'s not a valid answer.Please try again!')
             continue
         if userinput.lower() == 'yes':
